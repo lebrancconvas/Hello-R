@@ -4,7 +4,10 @@ license <- c("Bandai","Bandai")
 sold <- c(T,F)
 
 
-list_toy <- list(toy,price,license,sold)
+list_toy <- list(Toy = toy,
+                 Price = price,
+                 License = license,
+                 SoldOut = sold)
 print(list_toy)
 
 mean(price)
